@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    background-image: url("/imagens/fundo-madeira.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+/* Melhorar o posicionamento para o celular ficar centralzado
+(provavelmente teremos de voltar ao margin auto) */
+
+div.celular {
+    width: 217.2px;
+    height: 438.9px;
+    margin: auto;
+    margin-top: 8%;
+    background-image: url("/imagens/frame-iphone.png");
+    background-size: contain;
+    position: relative;
+}
+
+div.icones { 
+ 
+}
+
+.div-iframe {
+    height: 333px;
+    width: 210px;
+    position: absolute;
+    left: 15px;
+    top:53px;
+}
+
+.pequeno {
+    border-radius: 150px;
+    width:60px
+}
+
+#home {
+    position: sticky;
+    top: 20px;
+    left: 96%;
+
+}
+
+#youtube {
+    position: fixed;
+    top: 10% ;
+    left: 96%;
+}
+
+#github {
+    position: absolute;
+    top: 186px;
+    left: 87%;
+}
+
+#instagram {
+    position: absolute;
+    top: 272px;
+    left: 87%;
+}
+
+#twitter {
+    position: absolute;
+    top: 358px;
+    left: 87%;
+}
+
+#facebook {
+    position: absolute;
+    top: 444px;
+    left: 87%;
+} 
+
