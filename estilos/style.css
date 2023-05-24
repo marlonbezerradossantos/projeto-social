@@ -32,7 +32,7 @@ div.icones {
     height: 333px;
     width: 210px;
     position: absolute;
-    left: 15px;
+    left: 14px;
     top:53px;
 }
 
@@ -79,7 +79,7 @@ div.icones {
 
 #facebook {
     position: absolute;
-    top: 99%;
+    top: 98%;
     left: 100%;
     transform: translate(-100%, -100%);
 } 
