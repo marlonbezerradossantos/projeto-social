@@ -16,6 +16,22 @@ main {
     height: 100vh;
 }
 
+img {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582);
+    text-align: right;
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px 
+}
+
+.icones img:hover {
+    box-sizing: border-box;
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.582);
+    transition: transform .4s, border .5s;
+}
+
 body {
     background-image: url('../imagens/fundo-madeira.jpg');
     background-repeat: no-repeat;
@@ -36,10 +52,15 @@ body {
     left: 50%;
 }
 
+
 .tela {
     position: absolute;
     top: 12%;
     left: 6%;
-    width: 249px;
+    width: 246px;
     height: 437px;
+}
+
+.icones {
+    text-align: right;
 }
